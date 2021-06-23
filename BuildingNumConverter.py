@@ -13,6 +13,6 @@ while x:
             print ('your floor number would be '+ str(inp2) + ' in places other than Europe, Australia, and India')
         else: 
             print('your floor number in Europe, Australia, and India would be:', inp2)   
-        x = False #when x is false, the outer while loop(line 1) would not run anymore hense avoids an infinite loop
+        x = False #when x is false, the outer while loop(line 2) would not run anymore hense avoids an infinite loop
         break #exits the inner loop 
     
